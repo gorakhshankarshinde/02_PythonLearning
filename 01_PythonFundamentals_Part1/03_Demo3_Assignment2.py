@@ -1,5 +1,6 @@
 '''
-Q2. Take two numbers as input from the user and print their sum, difference, product, and quotient.
+Q2. Take two numbers as input from the user and
+ print their sum, difference, product, and quotient.
 '''
 print("Enter the first number:")
 num1 = float(input())
