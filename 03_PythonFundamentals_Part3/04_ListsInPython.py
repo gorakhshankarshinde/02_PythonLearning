@@ -25,7 +25,15 @@ for number in numbersList:
 numbersList[0] = 10 # update the first element value from 1 to 10
 print("Updated numbersList: ", numbersList) # output: [10, 2, 3, 4, 5]
 
+# list can store different data types, see below example
 
+mixedList = [1, "hello", 3.14, True]
 
+print("list type of mixedList: ", type(mixedList)) # output: <class 'list'>
+print("mixedList: ", mixedList) # output: [1, 'hello', 3.14, True]
 
+# get the slice of the list, see below example
+
+print("Slice of numbersList: ", numbersList[0:3]) # output: [10, 2, 3]
+print("Slice of mixedList: ", mixedList[1:3]) # output: ['hello', 3.14]
 
