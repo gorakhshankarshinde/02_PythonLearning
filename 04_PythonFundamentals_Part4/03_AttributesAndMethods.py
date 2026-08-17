@@ -27,6 +27,8 @@ emp2= Employee("Aish")
 print(emp.firstName)
 print(emp2.firstName)
 
+# Important: python is not allowing multiple constructors
+
 
 
 
